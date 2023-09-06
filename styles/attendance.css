@@ -1,0 +1,183 @@
+
+
+*{
+    font-family: work 'sans-serif';
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 54px;
+    width: 100%;
+    padding-top: 16px;
+    border-color:gray;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 99;
+    background-color:#f1f1f1;
+    box-shadow: 2px 3px 2px #dad5d5;
+}
+body{
+        margin-top: 150px;
+        font-family: sans-serif;
+        background-color: #d7d7ed;
+        justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    }
+    th {
+        border: 0px solid #ddd;
+        padding: 14px;
+        text-align: left;
+        background-color: #f1f1f1;
+        color: black;
+    }
+    td {
+        border: 0px solid #ddd;
+        padding: 14px;
+        text-align: left;
+    }
+
+  .add-buttons {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: -283px;
+}
+.addnew {
+  display: inline-block;
+  margin-left: 319px;
+  border-radius: 1px;
+  background-color: black;
+  color: white;
+}
+
+.viewattendance {
+  display: inline-block;
+  margin-left: -9px;
+  border-radius: 1px;
+  background-color: black;
+  color: white;
+
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    margin-top:27px;
+    margin-left: 34px;
+    background-color: white;
+}
+
+
+
+h1 {
+    margin-top:-65px;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+select{
+    font-family:sans-serif;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+button {
+    float: right;
+    background: rgb(35, 174, 202);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+.reg{
+margin-left: 0px;
+margin-top: 0px;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+  .school-name {
+    float: left;
+  }
+
+  .logout-link {
+    float: right;
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .search{
+    margin-left: 970px;
+    margin-top: -54px;
+  }
+  .logout-link {
+    float: right;
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+  }
+
+
+.date {
+    margin-left: 979px;
+    margin-top: -65px;
+}
+
+td.present {
+    background-color: green;
+    color: white;
+}
+
+td.absent {
+    background-color: red;
+    color: white;
+}
+
+td.late {
+    background-color: yellow;
+}
+
+td.sick {
+    background-color: blue;
+    color: white;
+}
+.mark{
+    background-color:black ;
+    margin-right: 26px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+.previous{
+    background-color: black;
+    margin-left: 951px;
+}

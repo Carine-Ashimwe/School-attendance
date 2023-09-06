@@ -1,0 +1,178 @@
+
+
+*{
+    font-family:sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 54px;
+    width: 100%;
+    padding-top: 16px;
+    border-color:gray;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 99;
+    background-color:#f1f1f1;
+    box-shadow: 2px 3px 2px #dad5d5;
+}
+
+body{
+    margin-top: 150px;
+    font-family: sans-serif;
+    justify-content: center;
+    background-color: #d7d7ed;
+    align-items: center;
+    height: 120vh;
+    flex-direction: column;
+    }
+    
+    th{
+        border: 0px solid #ddd;
+        padding: 14px;
+        text-align: left;
+      width: 30px;
+    }
+    td {
+      border: 0px solid #ddd;
+      padding: 14px;
+      text-align: left;
+  }
+
+.present {
+    color: green;
+    font-weight: bold;
+}
+
+
+.absent {
+    color: red;
+    font-weight: bold;
+}
+
+.late {
+    color: yellow;
+    font-weight: bold;
+}
+
+.sick {
+    color: blue;
+    font-weight: bold;
+}
+    th {
+    color: black;
+    border-radius: 2px;
+  }
+
+  .add-buttons {
+  display: flex;
+  margin-bottom: 20px;
+}
+.addnew {
+  display: inline-block;
+  margin-left: 4px;
+}
+.viewattendance {
+  display: inline-block;
+  margin-left: 4px;
+  text-decoration: none;
+}
+table {
+    width: 85%;
+    border-collapse: collapse;
+    border-radius: 3px;
+    margin-top: 16px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+
+h1 {
+    margin-top: -71px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    float: right;
+    background: rgb(35, 174, 202);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 80px;
+    border: none;
+} 
+
+button:hover{
+    opacity: 0.5;
+}
+.reg{
+margin-left: 0px;
+margin-top: 0px;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+  .school-name {
+    float: left;
+  }
+
+  .logout-link {
+    float: right;
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .search{
+    margin-left: 955px;
+    margin-top: -163px;
+  }
+  .logout-link {
+    float: right;
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+  }
+  .addnew {
+    margin-left: 319px;
+}
+.date {
+    margin-left: 319px;
+}
+
+.previous{
+    background-color: black;
+  }
+  .selected-date{
+    margin-top: -71px;
+    margin-left: 420px;
+    font-size: 24px;
+    font-weight: bold;
+  }

@@ -1,0 +1,151 @@
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+form {
+    width: 235px;
+    padding: 20px;
+    height: 100px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th ,td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 98%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 2px;
+}
+
+button {
+    float: right;
+    background: none;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+.reg{
+margin-left: 0px;
+margin-top: 0px;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+  .school-name {
+    float: left;
+  }
+
+  .logout-link {
+    float: right;
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+  }
+  .addnew{
+    margin-left:20px;
+
+  }
+  .search{
+    margin-left: 20px;
+  }
+  .logout-link {
+    float: right;
+    margin-right: 40px;
+    color: black;
+    text-decoration: none;
+  }
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 54px;
+    width: 100%;
+    padding-top: 16px;
+    border-color:gray;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 99;
+    background-color:#f1f1f1;
+    box-shadow: 2px 3px 2px #dad5d5;
+}
+.view{
+    margin-right: 287px;
+    margin-top: -145px;
+    background-color: pink;
+    border-radius: 16px;
+} 
+
+.add{
+    margin-right: 885px;
+    background-color: rgba(31 218 218);
+    border-radius: 16px;
+
+} 
+.student-add{
+    margin-right:-310px;
+    background-color: rgb(61 220 152);
+    border-radius: 16px;
+    margin-top: -145px;
+} 
+.icon{
+    position: relative;
+    margin-bottom: 53px;
+}
+.fa-solid{
+    position: absolute;
+    font-size:35px;
+    margin-top: 22px;
+    margin-left: 35px;
+}
+.students{
+    margin-right:-907px;
+    background-color: rgb(254 207 66);
+    border-radius: 16px;
+    margin-top: -145px;
+}
+.greeting{
+    margin-top: -78px;
+    margin-right: 910px;
+    font-size: 20px;
+    font-weight: bolder;
+}

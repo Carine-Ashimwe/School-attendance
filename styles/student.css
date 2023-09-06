@@ -1,0 +1,68 @@
+*{
+    font-family:sans-serif;
+    box-sizing: padding-box;
+}
+form {
+    width: 325px;
+    border: 3px solid rgb(243 237 237);
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input {
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    float: right;
+    background: rgb(35, 174, 202);
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover{
+    opacity: .10;
+}
+.reg{
+margin-left: 0px;
+margin-top: 0px;
+}
+
+.error {
+   background: #F2DEDE;
+   color: #0c0101;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+  .school-name {
+    float: left;
+  }
+
+  .logout-link {
+    float: right;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
