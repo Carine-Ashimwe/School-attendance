@@ -39,7 +39,6 @@ if (!isset($_SESSION["user"])) {
       }
   }
 
-
     if (isset($_POST['attendance_date'], $_POST['attendance_status'])) {
       $attendance_code = time();
 

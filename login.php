@@ -49,7 +49,7 @@ if (isset($_POST["submit"])) {
         <input type="password" name="password" placeholder="Password"><br> 
         <button type="submit" name="submit">Login</button>
 
-        <p class="reg">Don't have an account?<br> <a href="register.php">Register here.</a></p>
+     <p class="reg">Don't have an account?<br> <a href="register.php">Register here.</a></p>
      </form>
 </body>
 </html>

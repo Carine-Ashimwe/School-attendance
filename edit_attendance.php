@@ -13,7 +13,6 @@ if (!isset($_SESSION["user"])) {
         $attendanceDate = mysqli_real_escape_string($mysqli, $_POST['attendance_date']);
         $attendance_code = time();
 
-        // Check if attendance for this date already exists
         $existingAttendanceQuery = "SELECT * FROM attendance WHERE attendance_date = '$attendanceDate'";
         $existingAttendanceResult = mysqli_query($mysqli, $existingAttendanceQuery);
 
@@ -40,7 +39,7 @@ if (!isset($_SESSION["user"])) {
             } else {
                 $successMessage = "Error: Unable to save attendance data.";
             }
-            // Clear marked student row from the table
+
             echo "<script>
                 $('#row_$studentId').remove();
             </script>";
@@ -53,7 +52,6 @@ if (!isset($_SESSION["user"])) {
 <head>
   <title>Student Attendance</title>
   <link rel="stylesheet" href="styles/attendance.css">
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 </head>

@@ -19,7 +19,6 @@
   </header>
   <?php
   $currentHour = date("G");
-  
   if ($currentHour >= 5 && $currentHour < 12) {
       $greeting = "Good morning";
   } elseif ($currentHour >= 12 && $currentHour < 18) {
@@ -38,7 +37,7 @@
 </form>
 </div>
 <div class="view">
-  <form action="rangedate.php" method="GET">
+  <form action="choosedate.php" method="GET">
     <!-- <label for="selected_date">Select Date:</label>
     <input type="date" id="selected_date" name="date"> -->
     <label for="new">Check Attendance</label>

@@ -37,24 +37,24 @@ if (isset($_GET['start_date']) && isset($_GET['end_date'])) {
 <style>
 
     .rotate {
-      height: 35px;
+      height:0px;
       white-space: nowrap;
       transform: rotate(-45deg);
       vertical-align: middle; 
       padding-top: 49px;
-      padding-right: 5px;
-      top: 1px;
-      position: relative;
-      padding-left: 80px;
+      padding-right: 11px;
+      top: 2px;
+      position: relative; 
+      padding-left: 50px;
     }
     
     .rotate > div {
-      width: 50px; 
+      width: 100%; 
     }
     th.rotate > div > span {
         border-bottom: 1px solid black;
-        padding-bottom: 56px;
-        padding-right: 86px;
+        padding-bottom: 5px;
+        padding-right: -13px;
 }
     table {
       border-collapse: collapse;
@@ -75,7 +75,7 @@ if (isset($_GET['start_date']) && isset($_GET['end_date'])) {
     <span class="school-name">STUDENT ATTENDANCE MANAGEMENT SYSTEM</span>
     <a href="logout.php" class="logout-link">Logout</a>
   </header>
-  
+  <p class="titlee">View Attendance </p>
   <?php
   if (isset($_GET['start_date']) && isset($_GET['end_date'])) {
     echo '<table>';
@@ -102,7 +102,7 @@ if (isset($_GET['start_date']) && isset($_GET['end_date'])) {
 
           foreach ($dates as $formattedDate) {
             $attendanceStatus = $attendanceRows[$formattedDate] ?? '';
-            $colorClass = ''; // Initialize color class
+            $colorClass = ''; 
 
             if ($attendanceStatus === 'Present') {
                 $colorClass = 'present';

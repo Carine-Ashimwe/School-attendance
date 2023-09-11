@@ -10,7 +10,6 @@ include "functions.php";
 if (isset($_GET['date'])) {
     $selectedDate = $_GET['date'];
 
-
 $sql = "SELECT a.id, a.attendance_date, s.name AS student_name, a.attendance_status
      FROM attendance a
      INNER JOIN students s ON a.student_id = s.id

@@ -38,7 +38,7 @@ body{
         transform: 
         translate(25px, 51px)/
         rotate(315deg);
-      width: 30px;
+        width: 30px;
     }
     td {
       border: 0px solid #ddd;

@@ -40,7 +40,6 @@ if ($stmt->execute()) {
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-
 <?php
   if (isset($_GET['date']) && isset($_GET['student'])) {
       $attendanceDate = $_GET['date'];

@@ -20,7 +20,7 @@
           $DeleteResult = mysqli_query($mysqli, $DeleteQuery);
       
           if ($DeleteResult) {
-            // Handle successful deletion
+            
             echo "Student deleted successfully.";
         } else {
             // Handle error
@@ -28,3 +28,4 @@
         }
     }
   ?>
+

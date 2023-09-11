@@ -16,7 +16,6 @@ include "functions.php";
         $successMessage = "Error: Unable to add student.";
         echo "<script>alert('$successMessage');</script>";
     }
-
     header('Location: attendance.php');
   }
 ?>

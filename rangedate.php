@@ -17,7 +17,6 @@
     
     <label for="end_date">End Date:</label>
     <input type="date" id="end_date" name="end_date" required>
-    
     <button type="submit">Show Attendance</button>
   </form>
 </div>

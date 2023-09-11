@@ -29,7 +29,7 @@ header('Location: attendance.php');
     <a href="logout.php" class="logout-link">Logout</a>
   </header>
   <h1>Add Student</h1>
-<form method="post">
+    <form method="post">
     <input type="text" name="name" placeholder="Student Name" required>
     <input type="text" name="roll_number" placeholder="Roll Number" required>
     <input type="submit" name="submit" value="Add Student">
